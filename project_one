@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <title>:: otsikko ::</title>
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <style type="text/css">
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ @import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+ @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+ 
+ body{
+     margin:0 auto;
+     background: #336173;
+     background-image: url(isotausta.jpg);
+     background-repeat: repeat;
+     background-attachment: fixed;
+}
+ .yla {
+     margin:0 auto;
+     width: 100%;
+     height: 300px;
+     background-image: url(tausta.png);
+     background-repeat: repeat-x;
+     background-position: top;
+}
+ #koko {
+     margin:0 auto;
+     width:65%;
+     background: rgba(255, 255, 255, 0.9);
+     border:1px solid #eeeeee;
+     border-top:0px;
+}
+ .otsikko {
+     background-image: url(otsikko.png);
+     background-repeat: no-repeat;
+     background-position: top center;
+     text-align: center;
+     height: 300px;
+     width: 1000px;
+     margin: 0 auto;
+}
+ #otstxt {
+     padding-top: 110px;
+     font-family:Dancing Script;
+     letter-spacing: 2px;
+     font-size: 100px;
+     color: #fff;
+     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+     margin: 0 auto;
+     text-align: center;
+}
+ #tekstit {
+     margin:0 auto;
+     border:0px;
+     padding:30px;
+     padding-left:40px;
+     padding-right:40px;
+     width:80%;
+     font-family: Open Sans;
+     color: #585858;
+     letter-spacing: 0.5px;
+     line-height: 24px;
+     font-size: 13px;
+     text-align:justify;
+}
+ #copy {
+     width:65%;
+     height: 100px;
+     text-align:right;
+     text-transform: uppercase;
+     color:#d1a668;
+     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+     font-family:Playfair Display SC;
+     font-size:8.5pt;
+     line-height: 26px;
+     padding:20px;
+     margin: 0 auto;
+     letter-spacing: 1px;
+}
+/* Linkit */
+ a:link, a:visited {
+     color:#cab8a4;
+     text-decoration:none;
+     border-bottom: 1px solid #eee;
+}
+ a:active, a:hover {
+     color: #971a30;
+     text-decoration:none;
+     font-style:normal;
+     border-bottom: 0px solid #eee;
+}
+ #linkit {
+     width:auto;
+     color: #d7d7d7;
+     margin:0 auto;
+     margin-left: -2px;
+     padding:17px;
+     background:#e3bc83;
+     text-transform: uppercase;
+     text-align:center;
+     -webkit-border-bottom-right-radius: 30px;
+     -webkit-border-bottom-left-radius: 30px;
+     -moz-border-radius-bottomright: 30px;
+     -moz-border-radius-bottomleft: 30px;
+     border-bottom-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+}
+ #linkit a{
+     font-family:'Playfair Display SC', serif;
+     font-size:15px;
+     font-weight:normal;
+     font-weight: 300;
+     color: #fff;
+     margin:0;
+     padding:17px 30px 17px 40px;
+     letter-spacing:1px;
+}
+ #linkit a:hover{
+     color: #fff;
+     background: url('solmu.png') 52% no-repeat;
+     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+     border-bottom: 5px solid #971a2f;
+     background-color:#d1a668;
+     margin-top: -1px;
+     transition-duration: 0.5s;
+}
+/* Otsikot */
+ h1 {
+     font-family: 'Playfair Display SC', serif;
+     color: #971a30;
+     text-align: center;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     font-weight: 300;
+     font-size: 20px;
+     margin: 30px 50px 0px 50px;
+     padding: 0;
+     height: 55px;
+     overflow: hidden;
+     line-height: 50px;
+}
+ h2 {
+     font-size: 22px;
+     font-family:'Playfair Display SC', serif;
+     color: #971a30;
+     padding: 0px 30px;
+     letter-spacing: 2px;
+     line-height: 28px;
+     font-weight: 500;
+     border-bottom: 1px solid #e2ddd7;
+}
+ h3 {
+     font-size: 22px;
+     font-family:'Dancing Script', serif;
+     font-weight: 300;
+     color: #cab8a4;
+     padding: 0px 30px;
+     letter-spacing: 1px;
+     line-height: 28px;
+}
+ .sivukuva {
+     padding:5px;
+     height: 300px;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     border-radius:5px;
+     border:1px solid #e2ddd7;
+     background-color: #fff;
+}
+/* Koiralista */
+ #listaus {
+    text-align: center;
+     padding: 10px;
+}
+ .hlistaus {
+    display: inline-block;
+    text-align: center;
+     width: 300px;
+     font-size: 16px;
+    padding:15px;
+}
+ .hlistaus a {
+    font-weight:normal;
+}
+ .listauskuva {
+    border: 1px #ddd solid;
+    padding:6px;
+     margin-bottom:10px;
+    margin-top:10px;
+    background-color:#fff;
+    border-top-left-radius: 0px;
+    height: 200px;
+     border-bottom-right-radius: 0px;
+}
+ 
+    </style>
+
+</head>
+
+<body>
+    <div class="yla">
+
+    <div class="otsikko"><a id="yla"></a>
+        <p id="otstxt">Shenyen Tibetans</p>
+
+    </div>
+
+    <div id="koko">
+
+        <div id="linkit">
+            <a href="#">etusivu</a> 
+            <a href="#">linkki</a> 
+            <a href="#">linkki</a> 
+            <a href="#">linkki</a> 
+            <a href="#">linkki</a> 
+        </div>
+        <div id="tekstit">
+		<h1>Tervetuloa sivuillemme!</h1>
+
+		<img src="kuva3.jpg" class="sivukuva" height="310" align="left" style="margin-right: 40px; margin-bottom: 30px;">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+            luptatum zzril delenit augue duis dolore te feugait nulla facilisi. <a href="">Linkkiesimerkki</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> <br><br>
+
+            <h2>Väliotsikko h2</h2>
+		<img src="kuva.JPG" class="sivukuva" height="310" align="right" style="margin-left: 40px; margin-bottom: 30px;">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p><br><br><br><br>
+                <center><h3>Ystävällisin terveisin, Shenyen Tibetansin väki</h3>
+            <img src="kuva2.jpg" class="sivukuva"></center>
+
+
+        </div>
+    </div>
+
+    <div id="copy">
+        <p>copyright &copy; Shenyen Tibetans 2021 <span>/</span> webdesign &copy; cerppa.net 2021 <br>
+        <a href="yhteys.html">Yhteystiedot</a> | <a href="index.html">Etusivu</a> | <a href="#yla">Palaa ylös</a> </p>
+    </div>
+</body>
+
+</html>
